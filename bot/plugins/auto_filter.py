@@ -70,7 +70,7 @@ async def auto_filter(bot: Client, update: Message):
             
             # from B to MiB
             
-            if file_size < 1024:
+if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
                 file_size = f"[{str(round(file_size/1024, 2))} 𝚜𝚞𝚋𝚝𝚒𝚝𝚕𝚎] "
